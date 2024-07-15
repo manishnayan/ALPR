@@ -29,12 +29,12 @@ Make sure to include the following model files in your project directory:
 
 ## Usage
 
-- Place the rtsp link of the live camera or video file (test2.mp4) you wish to process in the same directory.
+- Place the rtsp link of the live camera or video file you wish to process in the same directory.
 - Activate your Conda environment:
-  conda activate anpr
+`  conda activate anpr`
 
 - Run the main script:
-  python main.py
+`  python main.py`
 
 - The processed cropped license plate images will be saved in the cropped_plate_image directory.
 - Detected license plate information will be logged in output/alpr_result.csv.
