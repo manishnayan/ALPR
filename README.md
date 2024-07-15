@@ -4,6 +4,8 @@
 
 This project implements an Automatic License Plate Recognition (ALPR) system using OpenCV and Yolo Object Detection techniques. It processes video streams to detect and recognize license plates, classify plate color, saving detected images and logging relevant data.
 
+![alt text](https://github.com/manishnayan/ALPR/blob/main/ANPR_Arch.png?raw=true)
+
 ## Features
 
 - Detects and recognizes license plates from video feeds.
