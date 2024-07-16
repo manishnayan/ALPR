@@ -27,19 +27,6 @@ class YOLO:
         self.save_data = save_data
         self.max_age = max_age
 
-        if True:
-            self.classesFile = classesFile
-            self.configuration = configuration
-            self.weights = weights
-            self.object_names = {0:"Motorcycle",1:"Auto",2:"Car",3:"Bus",4:"LCV",5:"Truck",6:"B_Motorcycle",7:"B_Auto",8:"B_Car",9:"B_Bus",10:"B_LCV",11:"B_Truck"}
-            self.object_ids = [*self.object_names]
-        else:
-            self.classesFile = "./Models/YOLO4/Plate_DEP.names"
-            self.configuration = "./Models/YOLO4/yolov4.cfg"
-            self.weights = "./Models/YOLO4/yolov4.weights"
-            self.object_names = {1: "Bicycle", 2: "Car", 3: "Motorbike", 5: "Bus", 6: "Bus", 7: "Truck"}
-            self.object_ids = [*self.object_names]
-
         self.classes = None
         #print("self.classesFile",self.classesFile)
         with open( self.classesFile, 'r') as f:
